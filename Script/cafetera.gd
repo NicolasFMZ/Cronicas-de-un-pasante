@@ -15,7 +15,6 @@ func mostrar_popup():
 	get_parent().add_child(popup_instance)
 	popup_instance.global_position = global_position + Vector2(0, -100)
 
-	# ⁉️ Aquí usamos Callable para conectar la señal directamente
 	popup_instance.aceptado.connect( Callable(self, "_on_popup_aceptado") )
 	popup_instance.rechazado.connect( Callable(self, "_on_popup_rechazar") )
 

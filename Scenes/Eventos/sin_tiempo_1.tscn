@@ -4,9 +4,16 @@
 [ext_resource type="PackedScene" uid="uid://bwptq4a46ev6" path="res://Scenes/edad_dinero_moral.tscn" id="2_7f2b4"]
 
 [node name="TextureButton" type="TextureButton"]
-offset_right = 40.0
-offset_bottom = 40.0
-scale = Vector2(0.599824, 0.599824)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = 4.0
+offset_right = 323.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.830031, 0.830031)
 texture_normal = ExtResource("1_roydu")
 
 [node name="CanvasLayer" parent="." instance=ExtResource("2_7f2b4")]

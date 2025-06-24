@@ -1,7 +1,7 @@
 extends Area2D
 
 @onready var popup_scene = preload("res://Scenes/Mensaje/Mensaje_Delivery.tscn")
-@onready var evento_delivery_scene = preload("res://Scenes/Eventos/evento_delivery.tscn")
+@onready var evento_delivery_scene = preload("res://Scenes/Eventos/evento_delivery_final.tscn")
 
 var popup_instance: Node2D = null  # guardamos la instancia para no duplicar
 
